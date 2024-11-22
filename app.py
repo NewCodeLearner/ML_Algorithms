@@ -38,4 +38,17 @@ if st.button("Show Recommendation"):
 
     with col1:
         st.header(recommended_movie_names[0])
+        st.image(recommended_movie_posters[0])
+    with col2:
+        st.header(recommended_movie_names[1])
+        st.image(recommended_movie_posters[1])
+    with col3:
+        st.header(recommended_movie_names[2])
+        st.image(recommended_movie_posters[2])
+    with col4:
+        st.header(recommended_movie_names[3])
+        st.image(recommended_movie_posters[3])
+    with col5:
+        st.header(recommended_movie_names[4])
+        st.image(recommended_movie_posters[4])
 
